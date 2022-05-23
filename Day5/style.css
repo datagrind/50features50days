@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg {
+  background: url('https://www.cnet.com/a/img/resize/3fbd26a989a8a38a43e088b74b89d9df355d0204/hub/2015/08/06/be15aa5b-3752-405f-91fd-ce9c7a65682f/dsc05002.jpg?auto=webp&fit=crop&height=675&width=1200') no-repeat center center/cover;
+  position: absolute;
+  top: -30;
+  left: -30;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(30px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
