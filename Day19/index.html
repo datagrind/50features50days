@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/> -->
+    <link rel="stylesheet" href="style.css"/>
+    <title>Catching Bad</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>You are the DEA</h1>
+        <!-- <h1>Catch The "Bad" Person</h1> -->
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+     <div class="screen">
+        <h1 class="choose-bad-title">Who is your most wanted &nbsp &nbsp &nbsp &nbsp person?</h1>
+        <ul class="bad-list">
+            <li>
+                <button class="choose-bad-btn">
+                    <p>Jessie Pinkman</p>
+                    <img src="https://flxt.tmsimg.com/assets/p185846_n176248_cc_v9_aa.jpg" alt="Jessie Pinkman">
+                </button>
+            </li>
+            <li>
+                <button class="choose-bad-btn">
+                    <p>Saul Goodman</p>
+                    <img src="https://i0.wp.com/www.rowsdowr.com/wp-content/uploads/2012/06/BB-S5-Saul-400.jpg" alt="Saul Goodman">
+                </button>
+            </li>
+            <li>
+                <button class="choose-bad-btn">
+                    <p>Heisenberg</p>
+                    <img src="https://www.portablepress.com/wp-content/uploads/2014/01/Walter_White21.jpg" alt="Heisenberg">
+                </button>
+            </li>
+            <li>
+                <button class="choose-bad-btn">
+                    <p>Mike Ehrmantraut</p>
+                    <img src="https://i.pinimg.com/736x/c0/4d/d5/c04dd580a6fff301a02d96935e4cfe1f.jpg" alt="Mike Ehrmantraut">
+                </button>
+            </li>
+            <li>
+                <button class="choose-bad-btn">
+                    <p>Skylar White</p>
+                    <img src="https://images5.fanpop.com/image/photos/31200000/Breaking-Bad-Season-5-Promo-Photos-breaking-bad-31234876-245-350.jpg" alt="Skylar White">
+                </button>
+            </li>
+            <li>
+                <button class="choose-bad-btn">
+                    <p>Gus Fring</p>
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d24f7e94285959.5e7b1d045156d.jpg" alt="Gus Fring">
+                </button>
+            </li>
+            <li>
+                <button class="choose-bad-btn">
+                    <p>Tuco Salamanca</p>
+                    <img src="https://yt3.ggpht.com/ytc/AMLnZu-BYzFBguumZ8FNrtZI2ID_jEOhd38JuoZz2n3A=s900-c-k-c0x00ffffff-no-rj" alt="Tuco Salamanca">
+                </button>
+            </li>
+        </ul>
+     </div>
+
+     <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Did you catch them yet?
+            You are playing an impossible game!!
+            No one catches these bad guys!
+        </h5>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
